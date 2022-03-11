@@ -1,0 +1,16 @@
+.button {
+  background-color: 000066;
+  color: black;
+  border: 2px solid #000088;
+  transition-duration: 0.4s;
+}
+  
+.button:hover {
+ background-color: 5555ff;
+ 
+ body {
+  background-image: url('/assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Verdana", "Arial", sans-serif;
+  }
