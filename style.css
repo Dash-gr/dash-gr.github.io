@@ -1,8 +1,5 @@
 body {
-  background-image: url('/assets/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Verdana", "Arial", sans-serif;
+  background-color: gray;
 }
 
 .button {
