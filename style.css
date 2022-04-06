@@ -2,13 +2,48 @@ body {
   background-color: gray;
 }
 
-.button {
-  background-color: 000066;
-  color: black;
+.profile {
+  background-color: #000066;
+  color: white;
+  padding: 2px;
   border: 2px solid #000088;
   transition-duration: 0.4s;
 }
-  
-.button:hover {
- background-color: 5555ff;
+
+ul > li {
+  margin-top: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.profile:hover {
+  background-color: #5555ff;
+}
+
+.head {
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+.incress-font {
+  font-size: 300%;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+p:not(.noextra) {
+  margin-bottom: 5em;
+}
+
+h4,
+h3 {
+  text-align: center;
 }
