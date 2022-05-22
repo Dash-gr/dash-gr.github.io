@@ -1,14 +1,16 @@
 body {
-  background-image: "/assets/background.jpg";
+  background-image: url("/assets/background.jpg");
+  color: white;
 }
 
 .button {
-  background-color: 000066;
+  background-color: #000066;
   color: black;
   border: 2px solid #000088;
   transition-duration: 0.4s;
 }
   
 .button:hover {
- background-color: 5555ff;
+ background-color: #5555ff;
+ transition-duration: 0.4s;
 }
